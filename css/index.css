@@ -26,7 +26,7 @@ header  a.search:hover{background-color: #f44336;}
 header  a.bars{display: block; position: absolute;right: 0px;top: 0;color: #fff;height: 45.38px;width: 45.38px;text-align: center;line-height: 2.5;cursor: pointer;display: none;}
 header  a.bars:hover{background-color: #bbb;color: #000;}
 header >ul.moNavi{width: 100%;position: relative;z-index: 9;display: none;}
-header >ul.moNavi>li{color: #fff;padding: 1em;}
+header >ul.moNavi>li{color: #fff;padding: 1em 1.5em;}
 
 /* main-visual */
 
@@ -58,9 +58,10 @@ header >ul.moNavi>li{color: #fff;padding: 1em;}
 .tour-date .tour-wrap .place .place-wrap img{}
 .tour-date .tour-wrap .place .place-wrap img:hover{}
 .tour-date .tour-wrap .place .place-wrap .place-txt{background-color: #fff;padding: 0 1em;}
-.tour-date .tour-wrap .place .place-wrap .place-txt b{font-weight: bold;padding: 1em 0;display: block;}
-.tour-date .tour-wrap .place .place-wrap .place-txt p{padding: 1em 0;}
+.tour-date .tour-wrap .place .place-wrap .place-txt p.bold{font-weight: bold;padding: 1em 0;display: block;}
+.tour-date .tour-wrap .place .place-wrap .place-txt p{padding: 1em 0;line-height: 1.4;}
 .tour-date .tour-wrap .place .place-wrap .place-txt p.grey{color: #bbb;padding: 0;}
+.tour-date .tour-wrap .place .place-wrap .place-txt p.content{letter-spacing: -0.05em;font-size: 0.9;}
 
 /* contact */
 
